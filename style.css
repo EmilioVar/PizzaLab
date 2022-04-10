@@ -10,8 +10,7 @@
 }
 .cabecera{
     background-image: url(./img/img_productos/pizza1.jpg);
-    background-size: cover;
-}
+    background-size: cover;}
 .row-cabecera{
     height: 300px;
 }
@@ -19,4 +18,8 @@ footer{
     height: 100px;
     background-color: #553928;
     color: white;
+}
+.btn-cabecera{
+    width: 110px;
+    height: 50px;
 }
