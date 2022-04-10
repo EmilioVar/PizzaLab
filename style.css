@@ -47,11 +47,7 @@ footer{
     }
 }
 /** Cabecera video**/
-.header{
-    height: 100vh;
-    display: flex;
-    color: #fff;
-}
+
 .content{
     margin: auto;
     text-align: center;
@@ -61,12 +57,12 @@ footer{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 40px;
     overflow: hidden;
 }
 .header-video video{
     min-width: 100vw;
-    min-height: 100vh;
+    height: 40vh;
 
 }
 .header-overlay{
@@ -95,6 +91,9 @@ footer{
 .v-pizza{
     position: relative;
     z-index: 0;
+}
+.v-video-top{
+    position: relative;
 }
 .v-text{
     font-size: 3em;
