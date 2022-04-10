@@ -1,0 +1,17 @@
+.navbar-light .navbar-brand{
+    width: 80px;
+}
+.navbar-light{
+    border-bottom: 1px solid #000000;
+    height: 100px;
+}
+.navbar-collapse{
+    margin-left: 15%;
+}
+.cabecera{
+    background-image: url(./img/img_productos/pizza1.jpg);
+    background-size: cover;
+}
+.row-cabecera{
+    height: 300px;
+}
