@@ -110,19 +110,19 @@ footer{
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 80vh;
+    height: 60vh;
     background-color: black;
     overflow:hidden;
-    position: relative;
+    position: relative; 
 }
 video{
     position: absolute;
     width: 100vw;
-    height: 164%;
+    height: auto;
     top:-140px;
     z-index: 1;
-    min-height: 500px;
-    min-width: 309%;
+    min-height: 100vh;
+    min-width: 1200px;
 }
 .texto-video{
     z-index: 2;
