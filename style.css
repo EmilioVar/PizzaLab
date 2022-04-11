@@ -118,13 +118,8 @@ footer{
 video{
     position: absolute;
     width: 100vw;
-<<<<<<< HEAD
-    height: 100vh;
-    top:-70px;
-=======
     height: 164%;
     top:-140px;
->>>>>>> nueva
     z-index: 1;
     min-height: 500px;
     min-width: 309%;
