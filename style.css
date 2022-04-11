@@ -110,7 +110,7 @@ footer{
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 500px;
+    height: 80vh;
     background-color: black;
     overflow:hidden;
     position: relative;
@@ -118,7 +118,8 @@ footer{
 video{
     position: absolute;
     width: 100vw;
-    top:-140px;
+    height: 100vh;
+    top:-70px;
     z-index: 1;
 }
 .texto-video{
