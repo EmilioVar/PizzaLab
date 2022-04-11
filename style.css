@@ -118,8 +118,11 @@ footer{
 video{
     position: absolute;
     width: 100vw;
+    height: 164%;
     top:-140px;
     z-index: 1;
+    min-height: 500px;
+    min-width: 309%;
 }
 .texto-video{
     z-index: 2;
