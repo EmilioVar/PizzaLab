@@ -79,7 +79,7 @@ footer{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.500);
+    background-color: rgba(0, 0, 0, 0.600);
     z-index: 1;
 }
 .video-container{
@@ -100,6 +100,14 @@ footer{
     position: absolute;
     z-index: 2;
     color: white;
+}
+.title-video{
+    font-family: 'Grape Nuts', cursive;
+    font-size: 7em;
+}
+.subtitle-video{
+    font-family: 'Grape Nuts', cursive;
+    font-size: 2em;
 }
 
 /** Estilos añadidos del video de la prueba **/
