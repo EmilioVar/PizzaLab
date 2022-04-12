@@ -52,17 +52,21 @@
             <!-- Nav -->
             <div class="collapse navbar-collapse nav" id="navbarSupportedContent bg-primary">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item  mx-4">
+                    <li class="nav-item  mx-2">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
-                    <li class="nav-item mx-4">
+                    <li class="nav-item mx-2">
                         <a class="nav-link" href="#artesania">Artesanía</a>
                     </li>
-                    <li class="nav-item mx-4 dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Contacto
-                        </a>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#sobre-nosotros">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#nuestr-equipo">Nuestro equipo</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
                         <ul class="dropdown-menu mx-4" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -72,13 +76,10 @@
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Busca pizzas" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">¡Buscar!</button>
+                    <button class="btn btn-outline-success" style="margin-right: 30px;" type="submit">¡Buscar!</button>
                 </form>
             </div>
         </div>
@@ -215,13 +216,50 @@
             </article>
         </div>
     </section>
-    <!-- Prueba formulario en grid, hecho a mano-->
+    <!-- Sobre nosotros-->
+    <section id="sobre-nosotros" class="container text-md-center  pt-4 px-0">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Sobre nosotros</h1>
+            </div>
+        <div class="row">
+            <div class="col-12 text-justify">
+                <p>Somos un equipo joven y ambicioso (vamos, la típica presentación de empresa) pero con algo más, y es que nos gusta la pizza.</p>
+                <p>Empresa nacida en el <strong>año 2d.C (después de COVID), </strong>nos hemos consolidado como refrentes en programación de pizza en el sector de la infopizza.</p>
+            </div>
+    </section>
+    <section id="nuestr-equipo" class="container-fluid pt-4 px-0">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Nuestro Equipo</h1>
+            </div>
+        </div>
+        <!-- Equipo -->
+        <div class="row">
+            <div class="col-12 d-flex align-items-center flex-column col-md-4">
+                <h3>Messi</h3>
+                    <img src="./img/img_productos/MESSI.jpg" height="400px">
+                    <p>Nuestro <em>killer</em> del código, siempre rematando cada pizza. Donde se necesite un peperoni, ahí está.</p>
+            </div>
+            <div class="col-12 d-flex align-items-center flex-column col-md-4">
+                <h3 class="text-center">Cristiano</h3>
+                    <img src="./img/img_productos/CRISTIANO_550x650.jpg" height="400px">
+                    <p>De lo bueno lo mejor lo mejor lo superior. Este portugues te robara el corazón (además del balon).</p>
+            </div>
+            <div class="col-12 d-flex align-items-center flex-column col-md-4">
+                <h3 class="text-center">Ronaldiño</h3>
+                    <img src="./img/img_productos/ronaldinyo.gif" height="400px">
+                    <p>El marabarista de la pizza, el <strong>mago</strong> del código, el mejor programador de <code>pizzascript</code> del mundo. Es de los nuestros</p>
+            </div>
+        </div>
+    </section>
+    <!-- Prueba formulario en grid, hecho a mano -->
     <section class="contenedor-grid-prueba my-3">
         <div class="imagen-formulario">
             <h3 class="pb-2 txt-img">Trabajamos para tí</h3>
             <img class="imagen-en-si ml-3 mr-5 rounded" src="./img/img_productos/work.jpg" alt="imagen corporativa">
         </div>
-        <div class="formulario">
+        <div id="contact" class="formulario">
             <h3 class="py-2 px-2">Formulario de contacto</h3>
             <p class="py-2 px-2">Para contactar, debes escribirnos por correo al siguiente formulario, si te parece bien te quiero mucho por 1000</p>
             <form class="py-2 px-2" action="submit" method="POST">
