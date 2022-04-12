@@ -176,7 +176,11 @@ video{
     border-radius: 15px;
     margin-right: 20px;
 }
-@media (max-width: 700px){
+label{
+    display: inline-block;
+    width: 80px;
+}
+@media (max-width: 770px){
     .contenedor-grid-prueba{
         grid-template-columns: repeat(1, 1fr)
     }

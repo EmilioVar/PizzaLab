@@ -50,7 +50,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- Nav -->
-            <div class="collapse navbar-collapse nav" id="navbarSupportedContent bg-primary">
+            <nav class="collapse navbar-collapse nav" id="navbarSupportedContent bg-primary">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item  mx-4">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
@@ -80,7 +80,7 @@
                     <input class="form-control me-2" type="search" placeholder="Busca pizzas" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">¡Buscar!</button>
                 </form>
-            </div>
+            </nav>
         </div>
     </nav>
     <!-- Final del Header -->
@@ -225,13 +225,15 @@
             <p class="py-2 px-2">Para contactar, debes escribirnos por correo al siguiente formulario, si te parece bien te quiero mucho por 1000</p>
             <form class="py-2 px-2" action="submit" method="POST">
                     <label class="my-3" for="name">Nombre</label>
-                    <input type="text" placeholder="nombre">
+                    <input type="text" required placeholder="nombre">
                     <br>
                     <label class="my-3" for="adress">Dirección</label>
-                    <input type="text" placeholder="dirección">
+                    <input type="text" required placeholder="dirección">
                     <br>
                     <label class="my-3" for="email">correo</label>
-                    <input type="email" placeholder="correo electrónico">
+                    <input type="email" required placeholder="correo electrónico">
+                    <br>
+                    <button type="submit" class="my-3 btn btn-warning">Enviar</button>
 
             </form>
         </div>
