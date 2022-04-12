@@ -50,7 +50,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- Nav -->
-            <nav class="collapse navbar-collapse nav" id="navbarSupportedContent bg-primary">
+            <div class="collapse navbar-collapse nav" id="navbarSupportedContent bg-primary">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item  mx-4">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
@@ -80,7 +80,7 @@
                     <input class="form-control me-2" type="search" placeholder="Busca pizzas" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">¡Buscar!</button>
                 </form>
-            </nav>
+            </div>
         </div>
     </nav>
     <!-- Final del Header -->
@@ -190,6 +190,7 @@
                 </div>
             </div>
         </article>
+        </div>
     </article>
     </section>
     <section class="row">
@@ -225,15 +226,13 @@
             <p class="py-2 px-2">Para contactar, debes escribirnos por correo al siguiente formulario, si te parece bien te quiero mucho por 1000</p>
             <form class="py-2 px-2" action="submit" method="POST">
                     <label class="my-3" for="name">Nombre</label>
-                    <input type="text" required placeholder="nombre">
+                    <input type="text" placeholder="nombre">
                     <br>
                     <label class="my-3" for="adress">Dirección</label>
-                    <input type="text" required placeholder="dirección">
+                    <input type="text" placeholder="dirección">
                     <br>
                     <label class="my-3" for="email">correo</label>
-                    <input type="email" required placeholder="correo electrónico">
-                    <br>
-                    <button type="submit" class="my-3 btn btn-warning">Enviar</button>
+                    <input type="email" placeholder="correo electrónico">
 
             </form>
         </div>
