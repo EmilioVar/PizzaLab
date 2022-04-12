@@ -5,4 +5,4 @@ tratando de crear una página de pizzería lo más verídico posible
 # Completa
 ![avatar](./Screenshots/completa.png)
 # Responsive
-![avatar](./Screenshots/responsive.png)
+![avatar](./Screenshots/mobile.png)
