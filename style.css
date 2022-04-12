@@ -169,11 +169,18 @@ video{
     margin-bottom: 20px;
 }
 .imagen-en-si{
-    width: 600px;
-    border-radius: 15px;
+    width: 100%;
 }
 .formulario{
     background-color: #f8f9fa;
     border-radius: 15px;
     margin-right: 20px;
+}
+@media (max-width: 700px){
+    .contenedor-grid-prueba{
+        grid-template-columns: repeat(1, 1fr)
+    }
+    .imagen-en-si, .txt-img{
+        display: none;
+    }
 }
