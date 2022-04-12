@@ -156,3 +156,24 @@ video{
 .texto-video{
     z-index: 2;
 }
+/** Prueba grid formulario hecho a mano**/
+
+.contenedor-grid-prueba{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+.imagen-formulario{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.imagen-en-si{
+    width: 600px;
+    border-radius: 15px;
+}
+.formulario{
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    margin-right: 20px;
+}
